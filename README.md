@@ -11,9 +11,8 @@ Benchmarks were run with a Ryzen 5 1600 CPU
 
 | Ray length (blocks)    | Raymarch time (nanoseconds) | Rays per 16ms frame |
 |:----------------------:|:---------------------------:|:-------------------:|
-| 1-10 blocks            | 250                         | 64000               | 
-| 200-400 blocks         | 3400                        | 4700                |    
-
+| 1-10                   | 250                         | 64000               | 
+| 200-400                | 3400                        | 4700                |    
 
 ## In Practice
 In Sector's Edge, ray marching is used to calculate particle and projectile collision with the map.
