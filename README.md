@@ -9,12 +9,12 @@ This voxel ray marching algorithm is based on [A Fast Voxel Traversal Algorithm 
 ## Benchmarks
 Benchmarks were run with a Ryzen 5 1600 CPU
 
-| Ray length (blocks)    | Raymarch time (nanoseconds) | Rays per 16ms frame |
+| Ray length (blocks)    | Ray march time (nanoseconds) | Rays per 16ms frame |
 |:----------------------:|:---------------------------:|:-------------------:|
 | 1-10                   | 250                         | 64000               | 
 | 200-400                | 3400                        | 4700                |    
 
 ## In Practice
-In Sector's Edge, ray marching is used to calculate particle and projectile collision with the map.
+In [Sector's Edge](https://www.youtube.com/watch?v=qoKzhIouzsk), ray marching is used to calculate particle and projectile collision with the map.
 
 ![Particles screenshot](https://vercidium.com/blog/content/images/size/w2000/2020/01/raymarching.jpg)
