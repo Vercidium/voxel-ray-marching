@@ -7,12 +7,12 @@ The explanation of the source code can be found in this [blog post](https://verc
 This voxel ray marching algorithm is based on [A Fast Voxel Traversal Algorithm for Ray Tracing](http://www.cse.chalmers.se/edu/year/2010/course/TDA361/grid.pdf) by John Amanatides and Andrew Woo and has been optimised by keeping block lookups within the current working chunk.
 
 ## Benchmarks
-Benchmarks were run with a Ryzen 5 1600 CPU
+Benchmarks were run with a Ryzen 5 1600 CPU.
 
-| Ray length (blocks)    | Ray march time (nanoseconds) | Rays per 16ms frame |
-|:----------------------:|:---------------------------:|:-------------------:|
-| 1-10                   | 250                         | 64000               | 
-| 200-400                | 3400                        | 4700                |    
+| Ray length (blocks) | Ray march time (nanoseconds) | Rays per 16ms frame |
+|:-------------------:|:----------------------------:|:-------------------:|
+| 1-10                | 250                          | 64000               | 
+| 200-400             | 3400                         | 4700                |    
 
 ## In Practice
 In [Sector's Edge](https://www.youtube.com/watch?v=qoKzhIouzsk), ray marching is used to calculate particle and projectile collision with the map.
