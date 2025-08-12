@@ -4,7 +4,7 @@ Optimised ray marching for voxel worlds, written in C# and open sourced from the
 The explanation of the source code can be found in this [blog post](https://vercidium.com/blog/optimised-voxel-raymarching/).
 
 ## References
-This voxel ray marching algorithm is based on [A Fast Voxel Traversal Algorithm for Ray Tracing](http://www.cse.chalmers.se/edu/year/2010/course/TDA361/grid.pdf) by John Amanatides and Andrew Woo and has been optimised by keeping block lookups within the current working chunk.
+This voxel ray marching algorithm is based on [A Fast Voxel Traversal Algorithm for Ray Tracing](http://www.cse.yorku.ca/~amana/research/grid.pdf) by John Amanatides and Andrew Woo and has been optimised by keeping block lookups within the current working chunk.
 
 ## Benchmarks
 Benchmarks were run with a Ryzen 5 1600 CPU.
